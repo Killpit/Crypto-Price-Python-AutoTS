@@ -7,7 +7,7 @@ from seaborn import regression
 sns.set()
 plt.style.use('seaborn-whitegrid')
 
-data = pd.read_csv("/Users/atatekeli/PycharmProjects/LitecoinPrice/LTC-USD.csv")
+data = pd.read_csv("LTC-USD.csv") #use pwd command for command line
 print(data.head())
 
 data.dropna()
